@@ -7,7 +7,7 @@ DECLARE
     v VARCHAR2(20) := 2 + 25 * 3;
 BEGIN
     dbms_output.put_line(v);
-    dbms_output.put_line(v);
+    dbms_output.put_line(v+1);
 END;
 -----------------------===================-----------------------
 DECLARE
